@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="sample.css">	
+  <title>jQuery UI Draggable</title>
+  <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
+  <script src="jquery.ui.touch-punch.js"></script>
+  <style>
+  #draggable { width: 150px; height: 150px; padding: 0.5em; }
+  </style>
+  <script>
+
+  $(function() {
+    $( "#win1" ).draggable();
+    $( "#win2" ).draggable();
+  });
+  </script>
+</head>
+<body>
+ 
+<div id="win1" class="window"><div class="bar">Drag Me...</div></div>
+<div id="win2" class="window"><div class="bar">Drag Me...</div></div>
+ 
+ 
+</body>
+</html>
