@@ -4,32 +4,11 @@
   <title>Google Closure Draggable</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="sample.css">
-  <script src="closure-library/closure/goog/base.js"></script>
-  <script>
-    goog.require('goog.fx.Dragger');
-    goog.require('goog.dom');
-    goog.require('goog.style');
-  </script>
-
+  <script src="closure-library/closure/goog/base.js" stype="text/javascript"></script>  
+  <script src="sample.js" stype="text/javascript"></script>	
 </head>
-<body>
+<body onload="showSample()">
   <div id="win1" class="window"><div class="bar">Drag Me...</div></div>
   <div id="win2" class="window"><div class="bar">Drag Me...</div></div>
-
-
-    <script>
-
-    var $ = goog.dom.getElement;
-
-    var window1 = new goog.fx.Dragger($('win1'));
-    var window2 = new goog.fx.Dragger($('win2'));
-
-
-    goog.events.listen(window, 'unload', function(e) {
-      window1.dispose();
-      window2.dispose();
-    });
-
-  </script>
 </body>
 </html>
