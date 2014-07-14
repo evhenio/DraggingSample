@@ -2,18 +2,17 @@
       position:absolute;
       left: 150px;
       top: 110px;
-      width: 300px;
+      width: 150px;
       height: 100px;
       background-color: rgb(200,200,250);
       border: 1px solid #99F;
       font: bold 11px/18px arial;
       text-indent: 10px;
       color: #FFF;
-      -ms-touch-action: none;
     }
 
     #win2 {
-      top:250px;
+      left:400px;
       background-color: rgb(250,200,200);
       border: 1px solid #F99;
     }
@@ -22,7 +21,7 @@
       position:absolute;
       left: 0px;
       top: 0px;
-      width: 300px;
+      width: 150px;
       height: 20px;
       background-color: #99F;
       cursor: default;
